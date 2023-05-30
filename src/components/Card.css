@@ -1,0 +1,69 @@
+.card {
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.card-details {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-upload-time {
+  font-size: 14px;
+  color: gray;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(210, 210, 210, 0.772);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.popup-content {
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(190, 190, 190);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-image {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+}
